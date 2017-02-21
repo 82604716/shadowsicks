@@ -898,7 +898,7 @@ class TCPRelayHandler(object):
                         logging.error('测试这里是不是参数进来的host-----参数进来的host是 : %s' % (host,))
                         # host_list = host.split(":", 2)
                         logging.error('host_list : %s' % (host,))
-                        # host_name = host_list[0]
+                        host_name = host
                         logging.error('multi_user_host_table: %s' % (self._server.multi_user_host_table,))
                         # //这里存了一份id 用 混淆参数拿回这个id  就知道当前是谁连过来的 #这里主要做的是匹配
                         try:
