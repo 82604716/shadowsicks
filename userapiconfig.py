@@ -10,7 +10,7 @@ AUTOEXEC = 0
 MULTI_THREAD = 1
 
 MU_SUFFIX = ''
-MU_REGEX = '%5m%id.%suffix'
+MU_REGEX = '%5m%id%suffix'
 
 SERVER_PUB_ADDR = '127.0.0.1' # mujson_mgr need this to generate ssr link
 API_INTERFACE = 'glzjinmod' #mudbjson, sspanelv2, sspanelv3, sspanelv3ssr, muapiv2(not support)
